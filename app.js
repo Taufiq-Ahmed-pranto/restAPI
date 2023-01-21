@@ -85,6 +85,6 @@ app.delete("/delete-student/:id", async(req, res) => {
     }
 });
 
-app.listen(8000, () => {
+app.listen(port, () => {
     console.log("server run at port " + port);
 });
